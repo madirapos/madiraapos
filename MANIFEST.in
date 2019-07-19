@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include madiraapos *.css
+recursive-include madiraapos *.csv
+recursive-include madiraapos *.html
+recursive-include madiraapos *.ico
+recursive-include madiraapos *.js
+recursive-include madiraapos *.json
+recursive-include madiraapos *.md
+recursive-include madiraapos *.png
+recursive-include madiraapos *.py
+recursive-include madiraapos *.svg
+recursive-include madiraapos *.txt
+recursive-exclude madiraapos *.pyc
